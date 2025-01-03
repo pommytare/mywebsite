@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rate Your Own Movie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rate Your Own Movie</h1>
+    <p>Fill out the details below to rate your own movie!</p>
+  </header>
+
+  <section id="add-movie">
+    <h2>Add Your Movie</h2>
+
+    <!-- Form to Add Movie -->
+    <form id="movie-form">
+      <label for="movie-title">Movie Title:</label>
+      <input type="text" id="movie-title" required><
+
+      <label for="movie-rating">Your Rating:</label>
+      <select id="movie-rating" required>
+        <option value="5">★★★★★</option>
+        <option value="4">★★★★☆</option>
+        <option value="3">★★★☆☆</option>
+        <option value="2">★★☆☆☆</option>
+        <option value="1">★☆☆☆☆</option>
+      </select><br>
+
+      <label for="movie-image">Movie Image URL:</label>
+      <input type="text" id="movie-image" required><br>
+
+      <button type="submit">Add Movie</button>
+    </form>
+  </section>
+
+  <footer>
+    <p><a href="index.html">Back to Movie Ratings</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<link rel="stylesheet" href="css/style.css">

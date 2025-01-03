@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+    <link rel="stylesheet" href="recommendation.css">
+</head>
+<body>
+
+<!-- Place this at the very top of your HTML body to position the button at the top -->
+    <header>
+        <button onclick="window.location.href='index.html';">Watched Movies</button>
+    </header>
+
+    <div class="movie-recommendations">
+    <h1>Movie Recommendations</h1>
+
+    <!-- Genre Filter Buttons -->
+    <div class="buttons">
+        <button onclick="filterMovies('all')">All</button>
+        <button onclick="filterMovies('romance')">Romance</button>
+        <button onclick="filterMovies('animation')">Animation</button>
+        <button onclick="filterMovies('thriller')">Thriller</button>
+        <button onclick="filterMovies('action')">Action</button>
+        <button onclick="filterMovies('horror')">Horror</button>
+        <button onclick="filterMovies('comedy')">Comedy</button>
+        <button onclick="filterMovies('science fiction')">Science Fiction</button>
+        <button onclick="filterMovies('anime')">Anime</button>
+    </div>
+
+    <!-- Movie Listings -->
+    <div class="movie" data-genre="romance">
+        <img src="through my window.jpg" alt="Through My Window">
+        <div>
+            <h3>Through My Window</h3>
+            <p>Raquel's crush on the neighbor next door turns into something more as he falls for her.</p>
+        </div>
+    </div>
+
+    <div class="movie" data-genre="romance">
+        <img src="the idea of you.jpg" alt="The Idea of You">
+        <div>
+            <h4>The Idea of You</h4>
+            <p>A 40-year-old single mum starts an unexpected romance with a 24-year-old boy band singer.</p>
+        </div>
+    </div>
+
+<div class="movie" data-genre="romance">
+    <img src="my fault.jpg" alt="my fault">
+    <div>
+        <h5>My Fault</h5>
+        <p>Noah has to leave her old life behind and move into her mom's new rich husband’s house. 
+There, she finds Nick, her stepbrother, and discovers he is hiding something. Their love begins there.</p>
+    </div>
+</div>
+
+<div class="movie" data-genre="romance">
+    <img src="titanic.jpg" alt="titanic">
+    <div>
+        <h6>Titanic</h6>
+        <p>Rose, who is forced to marry a wealthy man, falls for Jack, a talented artist, aboard the unsinkable Titanic. 
+Unfortunately, the ship hits an iceberg, endangering their lives.</p>
+    </div>
+</div>
+
+<div class="movie" data-genre="romance">
+    <img src="perfect addiction.jpg" alt="perfect addiction">
+    <div>
+        <h7>Perfect addiction</h7>
+        <p>when a succesfl trainer discovers her boyfriend has been cheating on her she sets out revenge plan training the one man capable of dethroning him:
+what begins as payback quickly trns into a complicated and steamy love triangle.</p>
+    </div>
+</div>
+
+<div class="movie" data-genre="romance">
+    <img src="purple hearts.jpg" alt="purple hearts">
+    <div>
+        <h8>purple hearts</h8>
+        <p>Cassie,a strggling singer-song writter agrees to marry a troubled marine,Luke for military benefits.
+the line between real and pretend begins to blurr.</p>
+    </div>
+</div>
+
+<div class="movie" data-genre="romance">
+    <img src="tearsmith.jpg" alt="tearsmith">
+    <div>
+        <h9>Tearsmith</h9>
+        <p>Someones greatest fear is accepting that someone can honestly love them for who they are.Nica and Rigel are
+ready to find it out together.</p>
+    </div>
+</div>
+
+<div class="movie" data-genre="romance">
+    <img src="sidelined.jpg" alt="sidelined">
+    <div>
+        <h10>sidelined:QB and me </h10>
+        <p>A headstrong dancer and cocky quarterback fight against their feelings for eachother as their post-gard
+future threatens to keep them apart.</p>
+    </div>
+</div>
+    <div class="movie" data-genre="animation">
+        <img src="moana.jpg" alt="Moana">
+        <div>
+            <h2>Moana</h2>
+            <p>A young woman uses her navigational talents to set sail for a fabled island. Joining her on the adventure is her hero, the legendary demi-god Maui.</p>
+        </div>
+    </div>
+
+    <div class="movie" data-genre="animation">
+           <img src="sing.jpg" alt="sing">
+    <div>
+        <h3>Sing</h3>
+        <p>Set in a world inhabited by anthropomorphic animals' the film focuses on a strggling theater owner who stages a singing competition.</p>
+    </div>
+</div>
+
+ <div class="movie" data-genre="animation">
+           <img src="leo.jpg" alt="leo">
+    <div>
+        <h4>LEO</h4>
+        <p>LEO the lizard stck in   the same school for decades learns he only has a year to live, plans to escape but instead he has to recue his class from
+their horribly mean substitute teacher.</p>
+    </div>
+</div>
+
+ <div class="movie" data-genre="animation">
+           <img src="spell bound.jpg" alt="spell bond">
+    <div>
+        <h5>Spell bound</h5>
+        <p>When a powerful spell trns her parents into giant monesters' a teenage princess must jorney into the wild to reverse the curse before its too late.</p>
+    </div>
+</div>
+
+ <div class="movie" data-genre="animation">
+           <img src="croods.jpg" alt="croods">
+    <div>
+        <h6>croods</h6>
+        <p>In the primaeval era, Grug and his family risk the dangers of their srroundings to find a new dwelling place.
+Along the way, they meet boy who woos them with his adventurous ways.</p>
+    </div>
+</div>
+        </div>
+        <div class="movie" data-genre="thriller">
+            <img src="Inception.jpg" alt="Movie inception">
+            <div>
+                <h2>Inception</h2>
+                <p>A mind-bending thriller that blurs the lines between dream and reality.</p>
+            </div>
+        </div>
+
+<div class="movie" data-genre="thriller">
+            <img src="seven.jpg" alt="seven">
+            <div>
+                <h3>se7en</h3>
+                <p>Detectives somerest and Mills, one a seasoned cop,the other a relatively one are paired p to solve murders.
+they  attempt to find killer who is inspired by the seven deadly sins.</p>
+            </div>
+        </div>
+
+<div class="movie" data-genre="thriller">
+            <img src="get out.jpg" alt="get out">
+            <div>
+                <h4>GET OUT</h4>
+                <p>Chris an african-american man visits his cacasian girlfriends parents during weekend getway.Althogh they seem 
+nomal at first, he is not prepared to expiriance the horrors ahead.</p>
+            </div>
+        </div>
+    </div>
+<div class="poster-container">
+    <img src="black.jpg" alt="black">
+</div>
+
+    <script src="recommendations.js"></script> <!-- Link to your JavaScript -->
+
+<!-- Add this button to your movie recommendations page -->
+<button onclick="window.location.href='index.html';">Watched Movies</button>
+
+<link rel="stylesheet" href="recommendation.css">
+
+</body>
+</html>

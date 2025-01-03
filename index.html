@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rate Movies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+ <!-- Place this at the very top of your HTML body to position the button at the top -->
+    <header>
+        <button onclick="window.location.href='recommendations.html';">Back to home</button>
+    </header>
+
+    <!-- Main content of the Movie Recommendations page -->
+    <div class="movie-recommendations">
+    <h1>Rate Movies</h1>
+  </header>
+
+<h2>Rate Your Movie</h2>
+<form id="rate-form">
+  <label for="movie-title">Movie Title:</label>
+  <input type="text" id="movie-title" required><br>
+  <section id="movies">
+    <h2>Rate Movies</h2>
+    
+    <!-- First Movie -->
+    <div class="movie">
+      <h3>Insurgent</h3> <!-- Title at the top -->
+      <label for="rating1">Your Rating:</label>
+      <select id="rating1">
+        <option value="5">★★★★★</option>
+        <option value="4">★★★★☆</option>
+        <option value="3">★★★☆☆</option>
+        <option value="2">★★☆☆☆</option>
+        <option value="1">★☆☆☆☆</option>
+      </select>
+      <img src="movie1.jpg" alt="movie 1 Poster">
+      <p><strong>Description:</strong> Tris prior must confront her inner demons to continue the fight against a powerful alliance that threatens to tear her society apart.</p>
+    </div>
+    
+    <!-- Second Movie -->
+    <div class="movie">
+      <h3>Moana 2</h3> <!-- Title at the top -->
+      <label for="rating2">Your Rating:</label>
+      <select id="rating2">
+        <option value="5">★★★★★</option>
+        <option value="4">★★★★☆</option>
+        <option value="3">★★★☆☆</option>
+        <option value="2">★★☆☆☆</option>
+        <option value="1">★☆☆☆☆</option>
+      </select>
+      <img src="movie2.jpg" alt="movie 2 Poster">
+      <p><strong>Description:</strong> Moana's journey to the far seas of Oceania after receiving a call from her ancestors.</p>
+    </div>
+    
+    <!-- Add more movie sections here -->
+  </section>
+
+  <footer>
+    <p><a href="rate your movie.html">add watched movies--></a></p>
+    <p>&copy; 2024 Movie Ratings. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+
+<div class="poster-container">
+  <!-- Your posters go here -->
+</div>
+
+</body>
+</html>
